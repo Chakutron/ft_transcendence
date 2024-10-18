@@ -22,11 +22,7 @@ SECRET_KEY = '12345678'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-        'www.ft-transcendence.com', 
-        'ft-transcendence.com', 
-        'localhost', 
-        '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 USE_X_FORWARDED_HOST = True
 
